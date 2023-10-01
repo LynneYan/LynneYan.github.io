@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https:/linyan.github.io/sitemap.xml
+Sitemap: https:/lynneyan.github.io/sitemap.xml
