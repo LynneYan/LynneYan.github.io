@@ -8,75 +8,39 @@ category:
 related_publications: yan2019structural, athawale2020uncertainty, yan2021scalar, YanMasoodRasheed2023
 
 ---
+I envision new methodologies to quantify, visualize, and mitigate data uncertainties by combining topological, geometric, statistical, and visualization techniques. Uncertainty visualization is a very active area of research. Uncertainty information is often summarized via statistical quantities (such as mean, median, and standard deviation) and encoded with data via color, opacity, texture, glyphs, animation, etc. The challenges associated with the study of structure-wise uncertainty in graph-based descriptors can be attributed, in part, to the difficulty in characterizing and quantifying their structural uncertainty. In particular, ensemble datasets combining multiple realizations of a phenomenon are often used to mitigate the effects of uncertainty. 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: User interface for the interactive visualization of labeled merge trees and their 1-center. Right: 2D projections of vertex consistency visualization of an ensemble of neuron trees reconstructed from OP 6. Images from <a href='https://ieeexplore.ieee.org/document/8794553' style="color: blue">[VIS19]</a>.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+We designed and led the development of an interactive visualization system resembling a numerical calculator that takes a set of merge trees as input and outputs a tree as their structural average <a href='https://ieeexplore.ieee.org/document/8794553' style="color: blue">[VIS19]</a>. This visualization tool can highlight structural similarities between the input and the average and incorporate uncertainty information for visual exploration. Our proposed uncertainty visualization measure can be used to understand structural variations among merge trees arising from scalar field ensembles. For example, I used these proposed methodologies to help study differences/variations among different reconstructions of the same neuron cell. 
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project3-6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left to Right: Ensemble members at time steps 60, 63, and 66, and Morse complex of the mean field. Images from <a href='https://ieeexplore.ieee.org/document/9187994' style="color: blue">[TVCG20]</a>..
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Another example is statistical summary maps for quantifying structural variations and visualizing positional uncertainties of Morse complexes in ensembles <a href='https://ieeexplore.ieee.org/document/9187994' style="color: blue">[TVCG20]</a>. Specifically, we introduced three types of statistical summary maps – the probabilistic, significance, and survival maps – to characterize the uncertain behaviors of gradient flows. We demonstrated the utility of our proposed approach using wind, flow, and ocean eddy simulation datasets. 

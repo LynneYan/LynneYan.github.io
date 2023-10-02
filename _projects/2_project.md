@@ -8,74 +8,33 @@ category:
 related_publications: YanLiangGuo2023, yan2018homology
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The disparity between the rapidly increasing computing performance and the slow increase in storage and I/O bandwidth of supercomputers necessitates data compression, where data produced by simulations are compressed in situ and decompressed in situ and post hoc for analysis and exploration. However, most of today’s lossy compressors (e.g., ZFP, FPZIP, SZ, etc.) provide global error bounds on the decompressed data, which do not guarantee the preservation of topological features essential to scientific discoveries. We worked on developing advanced data reduction techniques and software that preserve topological features in data for in situ and post hoc analysis and visualization at extreme scales. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project2-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project2-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Eliminate topological false cases with iterations. Right: 3D visualization of original and decompressed data with different parameter settings. Images from <a href='https://arxiv.org/abs/2304.11768' style="color: blue">[VIS23b]</a>.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+We designed and led the development of TopoSZ <a href='https://arxiv.org/abs/2304.11768' style="color: blue">[VIS23b]</a>, an error-bounded lossy compression method that preserves the topological features in 2D and 3D scalar fields. The main idea is to derive topological constraints from contour-tree-induced segmentation from the data domain and incorporate such constraints with a customized error-controlled quantization strategy from the SZ compressor. Our method allows users to control the pointwise error and the loss of topological features during compression. 
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project2-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project2-4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Homology-preserving dimensionality reduction using manifold landmarking: original point clouds, Isomap embeddings, random landmark Isomap embeddings, and homological landmark Isomap embeddings. Right: original point cloud, Isomap embeddings without tearing, with partial tearing and with the optimal tearing, respectively. Images from <a href='https://arxiv.org/abs/1806.08460' style="color: blue">[VDS18]</a>.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Another example is HIsomap <a href='https://arxiv.org/abs/1806.08460' style="color: blue">[VDS18]</a>, a topology-preserving dimensionality reduction (DR) technique for high-dimensional point clouds. It uses the data skeleton based on the mapper graph, a type of topological descriptor, to select landmarks and integrate these landmarks with the classic DR technique Isomap to preserve topology. 

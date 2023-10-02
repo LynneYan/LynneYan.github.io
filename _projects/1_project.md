@@ -8,74 +8,42 @@ category:
 related_publications: YanUllrichVan-Roekel2022, YanGuoPeterka2023, YanMasoodRasheed2023, bujack2020state, yan2021scalar,
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+My vision is to tackle feature understanding by combining topological data analysis (TDA) and data visualization to support critical ingredients of a scientific workflow, including feature extraction, feature tracking, transitions, clusters, and periodicities detection. With the increasing gap between the complexity of large-scale scientific simulations and the limited bandwidth of human perceptions, TDA provides tools for scientific visualization in terms of abstraction and summarization. 
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project1-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project1-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project1-3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left to right: feature tracking, selection, and comparison with the multilevel robustness framework. Images from <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14799' style="color: blue">[CGF23]</a>.
 </div>
+We designed and led the development of TROPHY <a href='https://arxiv.org/abs/2307.15243' style="color: blue">[VIS23a]</a>, a framework that can improve the visual interpretability of vector fields in terms of feature tracking, selection, and comparison for large-scale scientific simulations. TROPHY was initially motivated by the lack of feature-tracking tools that consider closeness in structural stability instead of just distance proximity within the domain <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14799' style="color: blue">[CGF23]</a>. It was then integrated with physical knowledge of tropical cyclones to drastically improve the computational efficiency of large-scale climate datasets <a href='https://arxiv.org/abs/2307.15243' style="color: blue">[VIS23a]</a>. TROPHY produced results comparable to (and sometimes even better than) those obtained with a widely used tropical cyclone tracking algorithm, requiring far fewer input data. 
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project1-4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    Annually detected TCs by IBTrACS (1st column), TempestExtremes(2nd column), the TROPHY (3rd column) in 2004 (1st row) and 2009 (2nd row). Image from <a href='https://arxiv.org/abs/2307.15243' style="color: blue">[VIS23a]</a>.
+</div>
+
+Another example is a general and unifying two-step framework that supports geometry-aware comparisons of merge trees, a type of topological descriptors, for time-varying data <a href='https://ieeexplore.ieee.org/document/9744472' style="color: blue">[TVCG22]</a>. This framework can help detect transitions, clusters, and periodicities of a time-varying dataset and diagnose and highlight the topological changes between adjacent data instances. This framework also has the potential to study structural similarities and dissimilarities between scalar fields that arise from scientific simulations, with driving applications in cosmology, climate, and fusion simulations <a href='https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14331' style="color: blue">[EuroVis21]</a>. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project1-5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Geometry-aware merge tree comparisons for transition detection. Image from <a href='https://ieeexplore.ieee.org/document/9744472' style="color: blue">[TVCG22]</a>.
+</div>
