@@ -1,11 +1,11 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+description: Redefining topology for domain-specific features
+img: assets/img/project1.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: 
+related_publications: YanUllrichVan-Roekel2022, YanGuoPeterka2023, YanMasoodRasheed2023, bujack2020state, yan2021scalar,
 ---
 
 Every project has a beautiful feature showcase page.

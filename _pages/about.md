@@ -12,8 +12,8 @@ profile:
     <center>
     <p><a href="assets/pdf/CV_LinYan.pdf">CV</a>| <a href="https://scholar.google.com/citations?user=cbCrnbEAAAAJ&hl=en">Google Scholar</a> | </p>
     <p><a href="https://github.com/LynneYan">GitHub</a> | <a itemprop="sameAs" content="https://orcid.org/0000-0001-7017-0329" href="https://orcid.org/0000-0001-7017-0329" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a></p> 
-    <p style="font-family:academicons;">Web page last updated: </p>
-    <p style="font-family:academicons;">October 1, 2023.</p></center>
+    <p style="font-family: Arial"> Web page last update: </p>
+    <p style="font-family: Arial">October 2, 2023.</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

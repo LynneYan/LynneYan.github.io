@@ -1,11 +1,11 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+description: Enhancing data reduction with topology 
+img: assets/img/project2.png
 importance: 2
-category: work
-giscus_comments: true
+category: 
+related_publications: YanLiangGuo2023, yan2018homology
 ---
 
 Every project has a beautiful feature showcase page.

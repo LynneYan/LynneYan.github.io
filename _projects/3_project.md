@@ -1,11 +1,12 @@
 ---
 layout: page
 title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+description: Mitigating uncertainty with topology
+img: assets/img/project3.png
 importance: 3
-category: work
+category:
+related_publications: yan2019structural, athawale2020uncertainty, yan2021scalar, YanMasoodRasheed2023
+
 ---
 
 Every project has a beautiful feature showcase page.
