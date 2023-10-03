@@ -2,11 +2,28 @@
 layout: page
 permalink: /services/
 title: Services
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+<h3>Program Committee</h3>
+<ul>
+<li>IEEE Workshop on Topological Data Analysis and Visualization in conjunction with IEEE VIS 2023, Melbourne, Australia  <a href='https://topoinvis-workshop.github.io/2023/' style="color: blue">(TopoInVis 2023)</a>.</li>
+</ul>
+<hr />
+
+<h3>Journal Reviewer</h3>
+<li>IEEE Transactions on Visualization and Computer Graphics (TVCG)</li>
+<li>Computer Graphics Forum (CGF)</li>
+<li>IEEE Visualization Conference</li>
+<li>Eurographics Conference on Visualization (EuroVis)</li>
+<li>IEEE Pacific Visualization (PacificVis)</li>
+<hr />
+
+<h3>Student Volunteer</h3>
+<ul>
+<li> Woman in Data Science (WiDS), 2019</li>
+<li>Hi-GEAR (Girls Engineering Abilities Realized) summer camp, 2018</li>
+</ul>

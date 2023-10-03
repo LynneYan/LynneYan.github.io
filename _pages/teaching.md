@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching experience after coming to the US.
 nav: true
 nav_order: 5
 ---
+<h3>Guest Lectures</h3>
+<ul>
+<li>CSE 5559: AI for Visualization, the Ohio State University, Fall 2022</li>
+</ul>
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<hr />
 
-Organize your courses by years, topics, or universities, however you like!
+<h3>Teaching Assistant</h3>
+<ul>
+<li>CSE 5334 Data Mining, University of Texas at Arlington, Fall 2016 </li>
+<li>CSE 1320 Intermediate Programming with C, University of Texas at Arlington, Spring 2017 </li>
+<li>CS 2100 Discrete Structures, University of Utah, Spring 2020 & Fall 2020</li>
+</ul>
