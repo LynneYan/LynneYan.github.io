@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle:  <b><a href='https://www.cs.iastate.edu/people/lin-yan'>Assistant Professor</a></b>. <b><a href='https://www.cs.iastate.edu'>Department of Computer Science</a></b>. <b><a href='https://www.iastate.edu'> Iowa State University</a></b>
+subtitle:  <b><a style="color: #cc0000" href='https://www.cs.iastate.edu/people/lin-yan'>Assistant Professor</a></b>. <b><a href='https://www.cs.iastate.edu'>Department of Computer Science</a></b>. <b><a href='https://www.iastate.edu'> Iowa State University</a></b>
 
 profile:
   align: right
