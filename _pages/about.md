@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle:  <b>Postdoctoral Fellowship</b>. <a href='https://www.anl.gov'>Argonne National Laboratory</a>
+subtitle:  <b>Assistant Professor</b>. <a href='https://www.cs.iastate.edu'>Department of Computer Science</a>.<a href='https://www.iastate.edu'>Iowa State University</a>
 
 profile:
   align: right
