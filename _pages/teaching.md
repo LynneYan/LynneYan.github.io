@@ -6,6 +6,13 @@ description: Teaching experience after coming to the US.
 nav: true
 nav_order: 5
 ---
+<h3>Instructor</h3>
+<ul>
+<li>COM S 321: Introduction to Computer Architecture and Machine-Level Programming, Iowa State University, Spring 2024</li>
+</ul>
+
+<hr />
+
 <h3>Guest Lectures</h3>
 <ul>
 <li>CSE 5559: AI for Visualization, the Ohio State University, Fall 2022</li>
