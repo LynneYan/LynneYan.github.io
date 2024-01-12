@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Become an assistant professor in the Department of Computer Science at Iowa State University.
+Become an assistant professor at Iowa State University.
