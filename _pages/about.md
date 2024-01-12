@@ -20,10 +20,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-<p>Environmental Science<br />
-Mathematics and Computer Science<br />
-Argonne National Laboratory<br />
-9700 S. Cass Ave., Argonne, IL 60439</p>
+<p>Department of Computer Science<br />
+Iowa State University<br />
+2434 Osborn Dr<br />
+Ames, IA, 50011</p>
 
 <b>Email: </b>
 <a href='mailto:linyan@iastate.edu'>linyan@iastate.edu</a>
