@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Had her little girl Evenlyn Han born &#128522; &#128522;
+Had her little girl, <b>Evelyn Han</b>, born &#128522; &#128522;
