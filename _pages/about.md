@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle:  <b>Assistant Professor</b>. <a href='https://www.cs.iastate.edu'>Department of Computer Science</a>.<a href='https://www.iastate.edu'>Iowa State University</a>
+subtitle:  <b>Assistant Professor</b>. <b><a href='https://www.cs.iastate.edu'>Department of Computer Science</a></b>. <b><a href='https://www.iastate.edu'> Iowa State University</a></b>
 
 profile:
   align: right
