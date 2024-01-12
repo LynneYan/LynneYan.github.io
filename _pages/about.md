@@ -29,7 +29,7 @@ Ames, IA, 50011</p>
 <a href='mailto:linyan@iastate.edu'>linyan@iastate.edu</a>
 
 <b>Short Biography: </b>
-Dr. Lin Yan is currently an assistant professor in the Department of Computer Science at Iowa State University. She received her BS and MS from Shanghai Jiao Tong University. She received her Ph.D. in computing from the University of Utah in 2022, under the supervision of <a href='http://www.sci.utah.edu/~beiwang/'>Prof. Bei Wang Phillips</a>. She was a postdoctoral fellow at the Environmental Science & Mathematics and Computer Science Division at Argonne National Laboratory from 2022-2023. Her research interests include topological data analysis and visualization. Her recent work focuses on problems involving large and complex forms of data by combining topological, and statistical data analysis, machine learning, and visualization techniques.
+Dr. Lin Yan is currently an assistant professor in the Department of Computer Science at Iowa State University. She received her BS and MS from Shanghai Jiao Tong University. She received her Ph.D. in computing from the University of Utah in 2022, under the supervision of <a href='http://www.sci.utah.edu/~beiwang/'>Prof. Bei Wang Phillips</a>. Her research interests include topological data analysis and visualization. Her recent work focuses on problems involving large and complex forms of data by combining topological, and statistical data analysis, machine learning, and visualization techniques.
 
 <b>Research keywords: </b>
 topological data analysis, data visualization, computational topology, data mining, and machine learning.
