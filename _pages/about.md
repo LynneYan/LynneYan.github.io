@@ -26,7 +26,7 @@ Argonne National Laboratory<br />
 9700 S. Cass Ave., Argonne, IL 60439</p>
 
 <b>Email: </b>
-<a href='mailto:lyan@anl.gov'>lyan@anl.gov</a>
+<a href='mailto:linyan@iastate.edu'>linyan@iastate.edu</a>
 
 <b>Short Biography: </b>
 Dr. Lin Yan is an Assistant Professor of Computer Science at the Iowa State University. She received her BS and MS from Shanghai Jiao Tong University in 2010 and 2013, respectively. She received her Ph.D. in computing from the University of Utah in 2022, under the supervision of <a href='http://www.sci.utah.edu/~beiwang/'>Prof. Bei Wang Phillips</a>. She was a postdoctoral fellow at the Environmental Science & Mathematics and Computer Science Division at Argonne National Laboratory from 2022-2023. Her research interests include topological data analysis and visualization. Her recent work focuses on problems involving large and complex forms of data by combining topological, and statistical data analysis, machine learning, and visualization techniques.
