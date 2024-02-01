@@ -22,7 +22,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 <p>Department of Computer Science<br />
 Iowa State University<br />
-101 Atanasoff Hall
+101 Atanasoff Hall<br />
 2434 Osborn Dr<br />
 Ames, IA, 50011</p>
 
