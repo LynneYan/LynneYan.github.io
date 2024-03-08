@@ -11,7 +11,6 @@ nav_order: 5
 <h3>Program Committee</h3>
 <ul>
 <li>IEEE Workshop on Topological Data Analysis and Visualization in conjunction with IEEE VIS 2024, Florida, U.S.A  <a href='https://topoinvis-workshop.github.io/2024/' style="color: blue">(TopoInVis 2024)</a>.</li>
-</ul>
 <li>IEEE Workshop on Topological Data Analysis and Visualization in conjunction with IEEE VIS 2023, Melbourne, Australia  <a href='https://topoinvis-workshop.github.io/2023/' style="color: blue">(TopoInVis 2023)</a>.</li>
 </ul>
 <hr />
