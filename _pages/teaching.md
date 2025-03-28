@@ -9,6 +9,8 @@ nav_order: 5
 <h3>Instructor</h3>
 <ul>
 <li>COM S 321: Introduction to Computer Architecture and Machine-Level Programming, Iowa State University, Spring 2024</li>
+<li>COM S 5730: Machine Learning, Iowa State University, Spring 2025</li>
+<li>COM S 5730: Machine Learning, Iowa State University, Fall 2025</li>
 </ul>
 
 <hr />
