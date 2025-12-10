@@ -37,10 +37,9 @@ topological data analysis, data visualization, computational topology, data mini
 
 <b>Students: </b>
 <ul>
-  <li>
-    <a href='https://www.cs.iastate.edu/people/elnaz-bashir'>Elnaz Bashir</a> (CS PhD, Spring 2024 - present)
-    <a href='https://www.cs.iastate.edu/people/ilia-jahanshahi'>Ilia Jahanshahi</a> (CS PhD, Spring 2024 - present)
-    <a href='https://www.cs.iastate.edu/people/shakiba-khourashahi'>Seyedeh Shakiba Khourashahi</a> (CS PhD, Spring 2024 - present)
+  <li><a href='https://www.cs.iastate.edu/people/elnaz-bashir'>Elnaz Bashir</a> (CS PhD, Spring 2024 - present)</li>
+  <li><a href='https://www.cs.iastate.edu/people/ilia-jahanshahi'>Ilia Jahanshahi</a> (CS PhD, Spring 2024 - present)</li>
+  <li><a href='https://www.cs.iastate.edu/people/shakiba-khourashahi'>Seyedeh Shakiba Khourashahi</a> (CS PhD, Spring 2024 - present)
   </li>
 </ul>
 
