@@ -35,4 +35,13 @@ Dr. Lin Yan is currently an assistant professor in the Department of Computer Sc
 <b>Research keywords: </b>
 topological data analysis, data visualization, computational topology, data mining, and machine learning.
 
+<b>Students: </b>
+<ul>
+  <li>
+    <a href='https://www.cs.iastate.edu/people/elnaz-bashir'>Elnaz Bashir</a> (CS PhD, Spring 2024 - present)
+    <a href='https://www.cs.iastate.edu/people/ilia-jahanshahi'>Ilia Jahanshahi</a> (CS PhD, Spring 2024 - present)
+    <a href='https://www.cs.iastate.edu/people/shakiba-khourashahi'>Seyedeh Shakiba Khourashahi</a> (CS PhD, Spring 2024 - present)
+  </li>
+</ul>
+
 
