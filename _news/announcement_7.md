@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to my student Shakiba on the acceptance of her first paper in IEEE Transactions on Visualization and Computer Graphics (TVCG)!
+Congratulations to my students, Shakiba and Ilia, on the acceptance of their first paper in IEEE Transactions on Visualization and Computer Graphics (TVCG)!
