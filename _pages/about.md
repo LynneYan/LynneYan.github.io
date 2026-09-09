@@ -35,7 +35,7 @@ Dr. Lin Yan is currently an assistant professor in the Department of Computer Sc
 <b>Research keywords: </b>
 topological data analysis, data visualization, computational topology, data mining, and machine learning.
 
-<b><span style="color:red">For Prospective Students:</span> I am looking for prospective Ph.D. students and research interns. If you are interested in working with me, feel free to send me your CV. Graduate admission information can be found [here](https://www.cs.iastate.edu/graduate-studies/phd-application-requirements).</b>
+<b><font color="red">For Prospective Students:</font> I am looking for prospective Ph.D. students. If you are interested in working with me, feel free to send me your CV. Graduate admission information can be found [here](https://www.cs.iastate.edu/graduate-studies/phd-application-requirements).</b>
 
 <b>Students: </b>
 <ul>
